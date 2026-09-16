@@ -1,13 +1,9 @@
-Ejercicio 2
-Coonversor Moneda
-Jhon Edison Galvis Leon
-
 import java.util.Scanner;
 
-public class ConversionMoneda {
+public class Ejercicio2 {
 
     // Literal A
-    public static double conversionAlas8AM(double P) {
+    public static double conversionALas8AM(double P) {
         return P;
     }
 
@@ -23,7 +19,7 @@ public class ConversionMoneda {
         System.out.print("Ingrese el dinero: ");
         double dinero = teclado.nextDouble();
 
-        System.out.println("Dinero a las 8am: " + conversionAlas8AM(dinero));
+        System.out.println("Dinero a las 8am: " + conversionALas8AM(dinero));
         System.out.println("Dinero al mediodia: " + conversionAlMediodia(dinero));
     }
 }
