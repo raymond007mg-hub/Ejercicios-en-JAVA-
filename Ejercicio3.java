@@ -1,3 +1,11 @@
+/*
+ * Ejercicio de Conversión de metros
+ * Integrante: Daniela Zuluaga Vasquez
+ * Cedula: 1152693761
+ * Correo:  dzuluagav@poligran.edu.co
+ *
+ * */
+
 import java.util.Scanner;
 
 public class Ejercicio3 {
