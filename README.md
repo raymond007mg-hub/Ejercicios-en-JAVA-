@@ -11,4 +11,10 @@ Entrega #1 - Programación de computadores - SubGrupo #24
   - Convierte metros a pies.
   - Convierte metros a pulgadas.
   - Convierte metros a centímetros.
+ 
+***Aportantes***
+
+- Raymond David Medina Galue
+- Daniela Zuluaga Vásquez
+- Jhon Edison Galvis Leon
 
