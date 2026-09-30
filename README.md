@@ -1,4 +1,6 @@
-Entrega #1 - Programación de computadores - SubGrupo #24
+Programación de computadores - SubGrupo #24
+
+  # Ejercicios - Entrega Previa 1
 
 - **Ejercicio 1 - Siglo**
   - Determina el siglo al que pertenece un año.
