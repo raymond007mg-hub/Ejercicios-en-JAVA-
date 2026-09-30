@@ -16,7 +16,7 @@ Programación de computadores - SubGrupo #24
  
   # Ejercicios - Entrega Previa 2
 
-##  Adivina el personaje
+**Adivina el personaje**
 
 Este ejercicio consiste en desarrollar un programa que permita al usuario elegir uno de los personajes disponibles en una lista. Posteriormente, el programa debe realizar una serie de preguntas al usuario para intentar determinar cuál fue el personaje seleccionado.
 
@@ -26,7 +26,7 @@ Entre los personajes propuestos se encuentran: Rafael, Falcao García, Goku, Mic
 
 ---
 
-## Caballos
+**Caballos**
 
 Este ejercicio está relacionado con el movimiento de las piezas en un tablero de ajedrez.
 
@@ -49,7 +49,7 @@ Después de recibir los datos, se debe utilizar el método desarrollado en el li
 
 ---
 
-## Suma de números primos
+**Suma de números primos**
 
 Este ejercicio consiste en desarrollar un programa que solicite al usuario un número entero positivo `n`.
 
