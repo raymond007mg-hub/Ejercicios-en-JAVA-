@@ -1,0 +1,41 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class MedianaArreglo {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingrese la cantidad de elementos del arreglo: ");
+        int n = scanner.nextInt();
+
+        if (n <= 0) {
+            System.out.println("El arreglo debe tener al menos un elemento.");
+            return;
+        }
+
+        double[] x = new double[n];
+        System.out.println("Ingrese los " + n + " números reales:");
+        for (int i = 0; i < n; i++) {
+            System.out.print("Elemento " + (i + 1) + ": ");
+            x[i] = scanner.nextDouble();
+        }
+
+        // 1. Ordenar el arreglo de menor a mayor
+        Arrays.sort(x);
+
+        double mediana;
+
+        // 2. Calcular la mediana según si la longitud es par o impar
+        if (n % 2 != 0) {
+            mediana = x[n / 2];
+        } else {
+            mediana = (x[(n / 2) - 1] + x[n / 2]) / 2.0;
+        }
+
+        // 3. Mostrar resultados
+        System.out.println("\nArreglo ordenado: " + Arrays.toString(x));
+        System.out.println("El elemento mediano de x es: " + mediana);
+
+        scanner.close();
+    }
+}
